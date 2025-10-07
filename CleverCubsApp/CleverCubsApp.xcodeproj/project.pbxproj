@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F07DBE552E95BB5000C6CFA0 /* CleverCubsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07DBE542E95BB5000C6CFA0 /* CleverCubsAppApp.swift */; };
+		F07DBE572E95BB5000C6CFA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07DBE562E95BB5000C6CFA0 /* ContentView.swift */; };
+		F07DBE592E95BB5200C6CFA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07DBE582E95BB5200C6CFA0 /* Assets.xcassets */; };
+		F07DBE5C2E95BB5200C6CFA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07DBE5B2E95BB5200C6CFA0 /* Preview Assets.xcassets */; };
+		F07DBE642E95D24700C6CFA0 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07DBE632E95D24700C6CFA0 /* SplashView.swift */; };
+		F07DBE662E95D26000C6CFA0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07DBE652E95D26000C6CFA0 /* SignUpView.swift */; };
+		F07DBE682E95D27200C6CFA0 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07DBE672E95D27200C6CFA0 /* MainMenuView.swift */; };
+		F07DBE6A2E95D28500C6CFA0 /* LettersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07DBE692E95D28400C6CFA0 /* LettersView.swift */; };
+		F07DBE6C2E95D29800C6CFA0 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07DBE6B2E95D29800C6CFA0 /* ShapesView.swift */; };
+		F07DBE6E2E95D2B300C6CFA0 /* MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07DBE6D2E95D2B300C6CFA0 /* MemoryGameView.swift */; };
+		F07DBE702E95D2C900C6CFA0 /* PuzzleView.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = F07DBE6F2E95D2C900C6CFA0 /* PuzzleView.swift .swift */; };
+		F07DBE722E95D2D700C6CFA0 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07DBE712E95D2D700C6CFA0 /* ResultView.swift */; };
+		F07DBE752E95D2F700C6CFA0 /* GameItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07DBE742E95D2F700C6CFA0 /* GameItem.swift */; };
+		F07DBE772E95D31000C6CFA0 /* UserProfile.swift │.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07DBE762E95D31000C6CFA0 /* UserProfile.swift │.swift */; };
+		F07DBE7A2E95D33A00C6CFA0 /* GameViewModel.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = F07DBE792E95D33A00C6CFA0 /* GameViewModel.swift .swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F07DBE512E95BB5000C6CFA0 /* CleverCubsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleverCubsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07DBE542E95BB5000C6CFA0 /* CleverCubsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleverCubsAppApp.swift; sourceTree = "<group>"; };
+		F07DBE562E95BB5000C6CFA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F07DBE582E95BB5200C6CFA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F07DBE5B2E95BB5200C6CFA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F07DBE632E95D24700C6CFA0 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		F07DBE652E95D26000C6CFA0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		F07DBE672E95D27200C6CFA0 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		F07DBE692E95D28400C6CFA0 /* LettersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersView.swift; sourceTree = "<group>"; };
+		F07DBE6B2E95D29800C6CFA0 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		F07DBE6D2E95D2B300C6CFA0 /* MemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameView.swift; sourceTree = "<group>"; };
+		F07DBE6F2E95D2C900C6CFA0 /* PuzzleView.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PuzzleView.swift .swift"; sourceTree = "<group>"; };
+		F07DBE712E95D2D700C6CFA0 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		F07DBE742E95D2F700C6CFA0 /* GameItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameItem.swift; sourceTree = "<group>"; };
+		F07DBE762E95D31000C6CFA0 /* UserProfile.swift │.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserProfile.swift │.swift"; sourceTree = "<group>"; };
+		F07DBE792E95D33A00C6CFA0 /* GameViewModel.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewModel.swift .swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F07DBE4E2E95BB5000C6CFA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F07DBE482E95BB5000C6CFA0 = {
+			isa = PBXGroup;
+			children = (
+				F07DBE532E95BB5000C6CFA0 /* CleverCubsApp */,
+				F07DBE522E95BB5000C6CFA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F07DBE522E95BB5000C6CFA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F07DBE512E95BB5000C6CFA0 /* CleverCubsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F07DBE532E95BB5000C6CFA0 /* CleverCubsApp */ = {
+			isa = PBXGroup;
+			children = (
+				F07DBE782E95D32100C6CFA0 /* ViewModels */,
+				F07DBE732E95D2E400C6CFA0 /* Models */,
+				F07DBE622E95BB6B00C6CFA0 /* Views */,
+				F07DBE542E95BB5000C6CFA0 /* CleverCubsAppApp.swift */,
+				F07DBE562E95BB5000C6CFA0 /* ContentView.swift */,
+				F07DBE582E95BB5200C6CFA0 /* Assets.xcassets */,
+				F07DBE5A2E95BB5200C6CFA0 /* Preview Content */,
+			);
+			path = CleverCubsApp;
+			sourceTree = "<group>";
+		};
+		F07DBE5A2E95BB5200C6CFA0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F07DBE5B2E95BB5200C6CFA0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F07DBE622E95BB6B00C6CFA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F07DBE632E95D24700C6CFA0 /* SplashView.swift */,
+				F07DBE652E95D26000C6CFA0 /* SignUpView.swift */,
+				F07DBE672E95D27200C6CFA0 /* MainMenuView.swift */,
+				F07DBE692E95D28400C6CFA0 /* LettersView.swift */,
+				F07DBE6B2E95D29800C6CFA0 /* ShapesView.swift */,
+				F07DBE6D2E95D2B300C6CFA0 /* MemoryGameView.swift */,
+				F07DBE6F2E95D2C900C6CFA0 /* PuzzleView.swift .swift */,
+				F07DBE712E95D2D700C6CFA0 /* ResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F07DBE732E95D2E400C6CFA0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F07DBE742E95D2F700C6CFA0 /* GameItem.swift */,
+				F07DBE762E95D31000C6CFA0 /* UserProfile.swift │.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F07DBE782E95D32100C6CFA0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F07DBE792E95D33A00C6CFA0 /* GameViewModel.swift .swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F07DBE502E95BB5000C6CFA0 /* CleverCubsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07DBE5F2E95BB5200C6CFA0 /* Build configuration list for PBXNativeTarget "CleverCubsApp" */;
+			buildPhases = (
+				F07DBE4D2E95BB5000C6CFA0 /* Sources */,
+				F07DBE4E2E95BB5000C6CFA0 /* Frameworks */,
+				F07DBE4F2E95BB5000C6CFA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleverCubsApp;
+			productName = CleverCubsApp;
+			productReference = F07DBE512E95BB5000C6CFA0 /* CleverCubsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F07DBE492E95BB5000C6CFA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F07DBE502E95BB5000C6CFA0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F07DBE4C2E95BB5000C6CFA0 /* Build configuration list for PBXProject "CleverCubsApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F07DBE482E95BB5000C6CFA0;
+			productRefGroup = F07DBE522E95BB5000C6CFA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F07DBE502E95BB5000C6CFA0 /* CleverCubsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F07DBE4F2E95BB5000C6CFA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07DBE5C2E95BB5200C6CFA0 /* Preview Assets.xcassets in Resources */,
+				F07DBE592E95BB5200C6CFA0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F07DBE4D2E95BB5000C6CFA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07DBE6C2E95D29800C6CFA0 /* ShapesView.swift in Sources */,
+				F07DBE752E95D2F700C6CFA0 /* GameItem.swift in Sources */,
+				F07DBE682E95D27200C6CFA0 /* MainMenuView.swift in Sources */,
+				F07DBE662E95D26000C6CFA0 /* SignUpView.swift in Sources */,
+				F07DBE7A2E95D33A00C6CFA0 /* GameViewModel.swift .swift in Sources */,
+				F07DBE6A2E95D28500C6CFA0 /* LettersView.swift in Sources */,
+				F07DBE572E95BB5000C6CFA0 /* ContentView.swift in Sources */,
+				F07DBE6E2E95D2B300C6CFA0 /* MemoryGameView.swift in Sources */,
+				F07DBE702E95D2C900C6CFA0 /* PuzzleView.swift .swift in Sources */,
+				F07DBE722E95D2D700C6CFA0 /* ResultView.swift in Sources */,
+				F07DBE772E95D31000C6CFA0 /* UserProfile.swift │.swift in Sources */,
+				F07DBE552E95BB5000C6CFA0 /* CleverCubsAppApp.swift in Sources */,
+				F07DBE642E95D24700C6CFA0 /* SplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F07DBE5D2E95BB5200C6CFA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F07DBE5E2E95BB5200C6CFA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F07DBE602E95BB5200C6CFA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CleverCubsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samreen.CleverCubsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F07DBE612E95BB5200C6CFA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CleverCubsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samreen.CleverCubsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F07DBE4C2E95BB5000C6CFA0 /* Build configuration list for PBXProject "CleverCubsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07DBE5D2E95BB5200C6CFA0 /* Debug */,
+				F07DBE5E2E95BB5200C6CFA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07DBE5F2E95BB5200C6CFA0 /* Build configuration list for PBXNativeTarget "CleverCubsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07DBE602E95BB5200C6CFA0 /* Debug */,
+				F07DBE612E95BB5200C6CFA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F07DBE492E95BB5000C6CFA0 /* Project object */;
+}
